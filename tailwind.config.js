@@ -26,6 +26,9 @@ module.exports = {
       },
       colors: {
         'barra': '#F3EFE0',
+      },
+      screens: {
+        '3xl': '1880px',
       }
   },
   plugins: [],
