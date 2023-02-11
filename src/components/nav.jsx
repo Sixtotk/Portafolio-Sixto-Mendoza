@@ -7,13 +7,13 @@ const goTop = (e) => {
 }
 
 const goSobre = (e) => {
-  window.scrollTo({ top: 850, behavior: 'smooth' })
+  window.scrollTo({ top: 880, behavior: 'smooth' })
 }
 const goProyectos = (e) => {
-  window.scrollTo({ top:2640, behavior: 'smooth' })
+  window.scrollTo({ top:1800, behavior: 'smooth' })
 }
 const goContacto = (e) => {
-  window.scrollTo({ top: 3324, behavior: 'smooth' })
+  window.scrollTo({ top: 2500, behavior: 'smooth' })
 }
 
 export default function Nav(){
