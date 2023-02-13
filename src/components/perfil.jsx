@@ -7,7 +7,7 @@ import { FaFileAlt, FaLinkedin } from 'react-icons/fa'
 
 export default function Perfil(){
   return(
-    <div className="flex flex-wrap justify-center w-screen h-[90vh] bg-gradient-to-b from-[#F3EFE0] to-[#222222]">
+    <div className="flex flex-wrap justify-center w-screen h-full bg-gradient-to-b from-[#F3EFE0] to-[#222222]">
 
       <div className="w-screen h-1/2 flex flex-wrap justify-center">
 
@@ -39,7 +39,7 @@ export default function Perfil(){
         <img className="
         mt-4 rounded-full border-r-[3px] border-l-[3px] border-[#222222]
         w-32 h-[12rem]
-        lg:w-64 lg:h-[23rem] lg:order-r-[10px] lg:border-l-[10px]
+        lg:w-64 lg:h-[23rem] lg:border-r-[10px] lg:border-l-[10px]
         xl:w-72 xl:h-[25rem]
         2xl:w-80 2xl:h-[27rem]
         3xl:w-96 3xl:h-[31rem]
@@ -72,15 +72,15 @@ export default function Perfil(){
         </div>
 
       </div>
-      <div className="w-full h-1/2 flex flex-wrap justify-center">
+      <div className="w-full  h-1/2  flex flex-wrap justify-center">
         <h2 className="
         font-['Forum'] text-[#F3EFE0] font-thin 
-        w-full text-xl mt-12
+        w-full text-xl h-1/2 mt-10 mb-8
         lg:text-5xl lg:mt-20
         3xl:mt-28">Hola, Soy Sixto</h2>
         <h2 className="
         font-['Forum'] underline text-[#F3EFE0] font-thin 
-        w-full text-2xl mt-[-42px]
+        w-full text-2xl mb-20
         lg:text-6xl">FULL STACK DEVELOPER</h2>
 
       </div>

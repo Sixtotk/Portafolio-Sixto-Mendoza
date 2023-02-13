@@ -29,7 +29,7 @@ export default function Nav(){
     3xl:h-32">
 
       <h1 className="
-      font-['Forum'] text-[#222222] font-thin 
+      font-['Forum'] text-[#222222] 
       flex flex-wrap content-center justify-center
       text-base w-full absolute mt-4
       md:text-4xl 
