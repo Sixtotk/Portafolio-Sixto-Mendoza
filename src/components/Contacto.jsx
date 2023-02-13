@@ -15,7 +15,7 @@ export default function Contacto(){
           lg:border-0 lg:bg-transparent
           ">
             <h3 className="
-            font-['Forum'] text-[#F3EFE0] font-thin w-auto 
+            font-['Forum'] text-[#F3EFE0] w-auto 
             text-xl mt-4 mb-4 lg:text-[#222222] 
             lg:text-4xl lg:mt-10">Contacto</h3>
           </div>
