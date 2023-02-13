@@ -11,10 +11,10 @@ export default function Page(){
     <div>
       <Nav/>
       <Perfil/>
-     <SobreMi/>
-     <Skill/>
-     <Proyectos/>
-     <Contacto/>
+      <SobreMi/>
+      <Skill/>
+      <Proyectos/>
+      <Contacto/>
 
       
     </div>

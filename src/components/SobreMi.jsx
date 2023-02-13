@@ -9,9 +9,10 @@ export default function Slider(){
      
     ">
 
-      <div className="w-3/5">
+      <div className="w-[70%] lg:w-3/5">
         <h4 className="
         text-justify font-['Forum'] text-[#F3EFE0] font-medium tracking-widest
+        text-base mt-14 mb-14
         lg:text-2xl  lg:mt-16 lg:mb-16
         xl:text-2xl
         2xl:text-3xl 2xl:mt-20 2xl:mb-20

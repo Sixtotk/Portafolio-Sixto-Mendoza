@@ -5,13 +5,24 @@ import { FaGithubSquare, FaLinkedin, FaWhatsappSquare} from 'react-icons/fa'
 export default function Contacto(){
   return(
     <div className="w-screen h-auto flex flex-wrap content-center justify-center ">
-      <div className="w-screen bg-gradient-to-b from-[#F3EFE0] to-[#434242] bg-[#434242] flex ">
-        <div className="w-[50%] flex flex-wrap">
-          <div className="w-full flex flex-wrap content-center justify-center">
-            <h3 className="text-4xl font-['Forum'] text-[#222222] font-thin w-auto mt-10">Contacto</h3>
+      <div className="
+      w-screen bg-[#F3EFE0] 
+      lg:flex lg:bg-gradient-to-b lg:from-[#F3EFE0] lg:to-[#434242]">
+        <div className="flex flex-wrap
+        lg:w-[50%] ">
+          <div className="w-full flex flex-wrap content-center justify-center 
+          bg-[#434242] border-b-4 border-[#222222]
+          lg:border-0 lg:bg-transparent
+          ">
+            <h3 className="
+            font-['Forum'] text-[#F3EFE0] font-thin w-auto 
+            text-xl mt-4 mb-4 lg:text-[#222222] 
+            lg:text-4xl lg:mt-10">Contacto</h3>
           </div>
-          <div className="w-full mb-10">
-            <h3 className="text-3xl font-['Forum'] text-justify text-[#222222] font-thin w-[60%] mt-6 ml-16 flex flex-wrap content-start justify-start">
+          <div className="w-full lg:mb-10">
+            <h3 className=" font-['Forum'] text-[#222222] font-thin flex flex-wrap content-center justify-center
+            text-xl mt-4
+            lg:ml-16 lg:text-3xl lg:content-start lg:justify-start lg:w-[60%] lg:text-justify lg:mt-6">
             Correo: sixtoorden@gmail.com<br/>
             Telefono: +51 910 178 928<br/>
             Ubicacion: Lima, Peru
@@ -19,8 +30,13 @@ export default function Contacto(){
                      
             
             
-            <div className="flex flex-wrap content-start justify-start mt-6 w-auto h-auto">
-              <div className=" w-[3rem] ml-16">
+            <div className="
+            flex flex-wrap content-center justify-center 
+            w-auto h-auto mt-4
+            lg:content-start lg:justify-start
+            lg:mt-6">
+              <div className=" w-[3rem] 
+              lg:ml-16">
               <a className="" href={"https://www.linkedin.com/in/sixto-mendoza-orden/"} target="_blank" rel="noreferrer"><FaLinkedin className="w-[3rem] h-[3rem]"/></a>
               </div>
               <div className=" w-[3rem] ml-10">
@@ -33,8 +49,10 @@ export default function Contacto(){
           </div>
         </div>
 
-        <div className="w-[50%]">
-          <form className="w-[80%] flex flex-wrap content-start  mt-20">
+        <div className="lg:w-[50%] flex flex-wrap content-center justify-center">
+          <form className=" flex flex-wrap content-center justify-center
+          w-[80%] mt-10
+          lg:mt-20 lg:content-start lg:justify-start">
             <input type="text" name="email" id="email" 
             className="block w-full pl-7 pr-12 h-10 mb-4 border-[#222222] border-2 bg-[#F3EFE0] text-[#222222]" placeholder="Email"></input>
 

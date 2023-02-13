@@ -9,12 +9,14 @@ export default function Proyectos(){
     <div className="w-full h-auto bg-[#222222]">
       <div className="
       flex flex-wrap justify-center content-center
-      bg-[#222222]  border-b-8 border-[#F3EFE0] 
-      w-full ">
+      bg-[#222222]    
+      w-full
+      lg:border-b-8 lg:border-[#F3EFE0]">
 
         <h2 className="
-        text-justify font-['Forum'] text-[#F3EFE0] font-medium tracking-widest mt-6 mb-6
-        lg:text-3xl 
+        text-justify font-['Forum'] text-[#F3EFE0] font-medium tracking-widest 
+        text-xl mt-4 mb-4
+        lg:mt-6 lg:mb-6 lg:text-3xl 
         2xl:text-4xl
         3xl:text-5xl
         ">Proyectos
@@ -26,31 +28,36 @@ export default function Proyectos(){
       ">
 
         <div className="
-        flex flex-wrap justify-center
-        w-1/2 ">
+        flex flex-wrap
+        lg:w-1/2 lg:justify-center">
 
           <div className="
           flex flex-wrap justify-center
-          bg-[#F3EFE0] 
-          w-[70%] ">
+          bg-[#F3EFE0] rounded-tr-[50px] rounded-br-[50px]
+          w-[90%]
+          lg:w-[70%] lg:rounded-none">
             <div className="
             w-full flex flex-wrap justify-center 
             mt-6">
               <a href={"https://pokemon-sixto.vercel.app"} target="_blank" rel="noreferrer">
                 <img className="
                 border-4 border-[#222222] rounded-full
-                w-[200px] h-[200px]" src={Poke} alt="pokemons"/>
+                w-[200px] h-[100px]
+                lg:w-[400px] lg:h-[200px]" src={Poke} alt="pokemons"/>
               </a>
             </div>
             <h3 className="
-            h-auto text-xl font-['Forum'] text-[#222222] font-medium
-            w-[80%] mt-10 ">
+            h-auto font-['Forum'] text-[#222222] font-medium
+            mt-10 text-base w-[70%]
+            lg:w-[80%] 
+            lg:text-xl ">
               Proyecto Individual(#SoyHenry)<br/>
               Pokémon App (13/10/2022)<br/><br/>
               Tecnologías usadas: React, Redux, CSS, Node.js, Express, PostgreSQL y Sequelize.
             </h3>
             <div className="flex flex-wrap justify-between
-            w-[40%] mt-10 mb-32">
+            w-[40%] mt-4 mb-4
+            lg:mt-10 lg:mb-32">
               <a className="
               flex flex-wrap justify-center
               w-[2rem] " 
@@ -58,7 +65,7 @@ export default function Proyectos(){
                   <FaCode className="w-auto h-[2rem]"/>
                   <p className="
                   mt-4 font-['Forum'] text-[#222222] font-medium
-                  lg:text-sm 
+                  text-sm 
                   xl:text-base
                   2xl:text-xl">
                   Repositorio
@@ -67,7 +74,7 @@ export default function Proyectos(){
                 <a className="w-[2rem] flex flex-wrap justify-center" href={"https://pokemon-sixto.vercel.app"} target="_blank" rel="noreferrer"><FaLink className="w-auto h-[2rem]"/>
                   <p className="
                   mt-4 font-['Forum'] text-[#222222] font-medium
-                  lg:text-sm 
+                  text-sm 
                   xl:text-base
                   2xl:text-xl">
                     Link
@@ -78,18 +85,34 @@ export default function Proyectos(){
             </div>
           </div>
 
-          <div className="w-1/2 flex flex-wrap justify-center">
-            <div className="w-[70%] flex flex-wrap justify-center bg-[#F3EFE0]">
+          <div className="
+        flex flex-wrap justify-end mb-8
+        lg:w-1/2 lg:justify-center lg:mb-0">
+
+            <div className="
+          flex flex-wrap justify-center
+          bg-[#F3EFE0] rounded-tl-[50px] rounded-bl-[50px] mt-8
+          w-[90%]
+          lg:w-[70%] lg:rounded-none lg:mt-0">
               <div className="w-full flex flex-wrap justify-center mt-6">
                 <a href={"https://la-dionisia-front.vercel.app"} target="_blank" rel="noreferrer">
-                  <img className=" w-[200px] h-[200px] border-4 border-[#222222] rounded-full" src={Dionisia} alt="pokemons"/>
+                  <img className="
+                border-4 border-[#222222] rounded-full
+                w-[200px] h-[100px]
+                lg:w-[400px] lg:h-[200px]" src={Dionisia} alt="pokemons"/>
                 </a>
               </div>
-              <h3 className="w-[80%] mt-10 h-auto text-xl font-['Forum'] text-[#222222] font-medium">Proyecto Final(#SoyHenry)<br/>
+              <h3 className="
+            h-auto font-['Forum'] text-[#222222] font-medium
+            mt-10 text-base w-[70%]
+            lg:w-[80%] 
+            lg:text-xl ">Proyecto Final(#SoyHenry)<br/>
                         La Dionisia Wines (27/01/2023)<br/><br/>
                         Tecnologías usadas: TypeScript, Next.js, Redux, Tailwind_Css, Node.js, Express, PostgreSQL, Sequelize y Scrum.
               </h3>
-              <div className="flex flex-wrap justify-between w-[50%] mt-10 mb-28">
+              <div className="flex flex-wrap justify-between 
+              w-[70%] mt-4 mb-4
+              lg:w-[50%] lg:mt-10 lg:mb-28">
                 <a className="w-[2rem] flex flex-wrap justify-center" 
                 href={"https://github.com/Sixtotk/LaDionisiaBack-JS"} target="_blank" rel="noreferrer">
                   <FaCode className="w-auto h-[2rem]"/>

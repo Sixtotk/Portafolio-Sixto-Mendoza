@@ -13,18 +13,21 @@ export default function Perfil(){
 
         <div className="
         flex flex-wrap justify-center
+        mr-5 mt-20 h-20
         lg:mr-40 lg:mt-20 lg:h-[7rem]
         2xl:h-[9rem]
         3xl:mr-40 3xl:mt-52 3xl:h-[11rem]">
 
           <a href={"https://www.linkedin.com/in/sixto-mendoza-orden/"} target="_blank" rel="noreferrer">
             <FaFileAlt className="
+            w-auto h-12
             lg:w-auto lg:h-[5rem]
             2xl:h-[7rem]
             3xl:h-[9rem]"/>
             <p className="
             flex flex-wrap justify-center
             font-['Forum'] text-[#222222] font-medium
+            text-base
             lg:mt-2 lg:text-lg
             2xl:text-xl
             3xl:text-2xl">
@@ -34,14 +37,16 @@ export default function Perfil(){
 
         </div>
         <img className="
-        mt-4 rounded-full border-r-[10px] border-l-[10px] border-[#222222] 
-        lg:w-64 lg:h-[23rem]
+        mt-4 rounded-full border-r-[3px] border-l-[3px] border-[#222222]
+        w-32 h-[12rem]
+        lg:w-64 lg:h-[23rem] lg:order-r-[10px] lg:border-l-[10px]
         xl:w-72 xl:h-[25rem]
         2xl:w-80 2xl:h-[27rem]
         3xl:w-96 3xl:h-[31rem]
           " 
         src={Foto} alt="Foto"/> 
         <div className="
+        ml-5 mt-20 h-20
         flex flex-wrap justify-center
         lg:ml-40 lg:mt-20 lg:h-[7rem]
         2xl:h-[9rem]
@@ -49,12 +54,14 @@ export default function Perfil(){
 
           <a href={"https://www.linkedin.com/in/sixto-mendoza-orden/"} target="_blank" rel="noreferrer">
             <FaLinkedin className="
+            w-auto h-12
             lg:w-auto lg:h-[5rem]
             2xl:h-[7rem]
             3xl:h-[9rem]"/>
             <p className="
             flex flex-wrap justify-center
             font-['Forum'] text-[#222222] font-medium
+            text-base
             lg:mt-2 lg:text-lg
             2xl:text-xl
             3xl:text-2xl">
@@ -67,11 +74,13 @@ export default function Perfil(){
       </div>
       <div className="w-full h-1/2 flex flex-wrap justify-center">
         <h2 className="
-        font-['Forum'] text-[#F3EFE0] font-thin w-full
+        font-['Forum'] text-[#F3EFE0] font-thin 
+        w-full text-xl mt-12
         lg:text-5xl lg:mt-20
         3xl:mt-28">Hola, Soy Sixto</h2>
         <h2 className="
-        font-['Forum'] underline text-[#F3EFE0] font-thin w-full
+        font-['Forum'] underline text-[#F3EFE0] font-thin 
+        w-full text-2xl mt-[-42px]
         lg:text-6xl">FULL STACK DEVELOPER</h2>
 
       </div>

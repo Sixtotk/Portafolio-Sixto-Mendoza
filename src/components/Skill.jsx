@@ -8,29 +8,35 @@ import { SiRedux, SiCss3, SiPostgresql, SiNextdotjs, SiTailwindcss } from "react
 
 export default function Skill(){
   return(
-    <div className="flex w-full h-auto">
+    <div className="w-full h-auto lg:flex ">
     <div className="
     flex flex-wrap justify-center
-    bg-[#00B9AE]  border-t-8 border-[#434242]
-    
-    lg:w-1/2 ">
+    bg-[#00B9AE]
+    w-full
+    lg:w-1/2 lg:border-t-8 lg:border-[#434242]">
         <h2 className="
         text-[#222222] text-justify font-['Forum']  font-medium tracking-widest
-        lg:text-3xl  lg:mt-10
+        text-xl mt-4 mb-4
+        lg:text-3xl  lg:mt-10 lg:mb-0
         2xl:text-4xl
         3xl:text-5xl">
           Tech skill
         </h2>
         <div className="w-full h-auto flex flex-wrap justify-center content-between 
         lg:mt-10">
-          <div className="w-[15%] flex flex-wrap justify-center">
+          <div className="
+          flex flex-wrap justify-center
+          w-1/2 mb-4
+          lg:w-[15%] lg:mb-0">
             <a className="
+            w-8
             lg:w-[3rem]
             2xl:w-[4rem]
             3xl:w-[5rem]
             " href={"https://developer.mozilla.org/es/docs/Web/JavaScript"} target="_blank" rel="noreferrer">
               <FaJs className="
-              lg:w-auto lg:h-[3rem]
+              w-auto h-8
+              lg:h-[3rem]
               2xl:h-[4rem]
               3xl:h-[5rem]"/>
               <p className="
@@ -43,13 +49,18 @@ export default function Skill(){
               </p>
             </a>
           </div>
-          <div className="w-[15%] flex flex-wrap justify-center">
+          <div className="
+          flex flex-wrap justify-center
+          w-1/2 mb-4
+          lg:w-[15%] lg:mb-0">
             <a className="
+            w-8
             lg:w-[3rem]
             2xl:w-[4rem]
             3xl:w-[5rem]" 
             href={"https://reactjs.org/docs/getting-started.html"} target="_blank" rel="noreferrer"><FaReact className="
-            lg:w-auto lg:h-[3rem]
+            w-auto h-8
+            lg:h-[3rem]
             2xl:h-[4rem]
             3xl:h-[5rem]" />
               <p className="
@@ -62,13 +73,18 @@ export default function Skill(){
               </p>
             </a>
           </div>
-          <div className="w-[15%] flex flex-wrap justify-center">
+          <div className="
+          flex flex-wrap justify-center
+          w-[33.3%] mb-4
+          lg:w-[15%] lg:mb-0">
             <a className="
+            w-8
             lg:w-[3rem]
             2xl:w-[4rem]
             3xl:w-[5rem]" 
             href={"https://redux.js.org/introduction/getting-started"} target="_blank" rel="noreferrer"><SiRedux className="
-            lg:w-auto lg:h-[3rem]
+            w-auto h-8
+            lg:h-[3rem]
             2xl:h-[4rem]
             3xl:h-[5rem]"/>
               <p className="
@@ -81,13 +97,18 @@ export default function Skill(){
               </p>
             </a>
           </div>
-          <div className="w-[15%] flex flex-wrap justify-center">
+          <div className="
+          flex flex-wrap justify-center
+          w-[33.3%] mb-4
+          lg:w-[15%] lg:mb-0">
             <a className="
+            w-8
             lg:w-[3rem]
             2xl:w-[4rem]
             3xl:w-[5rem]" 
             href={"https://developer.mozilla.org/en-US/docs/Web/CSS"} target="_blank" rel="noreferrer"><SiCss3 className="
-            lg:w-auto lg:h-[3rem]
+            w-auto h-8
+            lg:h-[3rem]
             2xl:h-[4rem]
             3xl:h-[5rem]"/>
               <p className="
@@ -100,15 +121,20 @@ export default function Skill(){
               </p>
             </a>
           </div>
-          <div className="w-[15%] flex flex-wrap justify-center">
+          <div className="
+          flex flex-wrap justify-center
+          w-[33.3%] mb-4
+          lg:w-[15%] lg:mb-0">
             <a className="
+            w-8
             lg:w-[3rem]
             2xl:w-[4rem]
             3xl:w-[5rem]"
              href={"https://nodejs.org/en/docs/"} target="_blank" rel="noreferrer"><FaNode className="
-            lg:w-auto lg:h-[3rem]
-            2xl:h-[4rem]
-            3xl:h-[5rem]"/>
+             w-auto h-8
+             lg:h-[3rem]
+             2xl:h-[4rem]
+             3xl:h-[5rem]"/>
               <p className="
               flex flex-wrap justify-center
               font-['Forum'] text-[#222222] font-medium
@@ -120,17 +146,22 @@ export default function Skill(){
             </a>
           </div>
         </div>
-        <div className="w-full h-auto flex flex-wrap justify-center content-between
-        lg:mt-10 mb-10">
-          <div className="w-[15%] flex flex-wrap justify-center">
+        <div className="w-full h-auto flex flex-wrap justify-center content-between 
+        lg:mt-10 lg:mb-6">
+          <div className="
+          flex flex-wrap justify-center
+          w-[33.3%] mb-4
+          lg:w-[15%] lg:mb-0">
             <a className="
+            w-8
             lg:w-[3rem]
             2xl:w-[4rem]
             3xl:w-[5rem]"
              href={"https://www.postgresql.org/docs/"} target="_blank" rel="noreferrer"><SiPostgresql className="
-            lg:w-auto lg:h-[3rem]
-            2xl:h-[4rem]
-            3xl:h-[5rem]"/>
+             w-auto h-8
+             lg:h-[3rem]
+             2xl:h-[4rem]
+             3xl:h-[5rem]"/>
               <p className="
               flex flex-wrap justify-center
               font-['Forum'] text-[#222222] font-medium
@@ -141,15 +172,20 @@ export default function Skill(){
               </p>
             </a>
           </div>
-          <div className="w-[15%] flex flex-wrap justify-center">
+          <div className="
+          flex flex-wrap justify-center
+          w-[33.3%] mb-4
+          lg:w-[15%] lg:mb-0">
             <a className="
+            w-8
             lg:w-[3rem]
             2xl:w-[4rem]
             3xl:w-[5rem]"
              href={"https://nextjs.org/docs/getting-started"} target="_blank" rel="noreferrer"><SiNextdotjs className="
-            lg:w-auto lg:h-[3rem]
-            2xl:h-[4rem]
-            3xl:h-[5rem]" />
+             w-auto h-8
+             lg:h-[3rem]
+             2xl:h-[4rem]
+             3xl:h-[5rem]" />
               <p className="
               flex flex-wrap justify-center
               font-['Forum'] text-[#222222] font-medium
@@ -160,19 +196,25 @@ export default function Skill(){
               </p>
             </a>
           </div>
-          <div className="w-[15%] flex flex-wrap justify-center">
+          <div className="
+          flex flex-wrap justify-center
+          w-[33.3%] mb-4
+          lg:w-[15%] lg:mb-0">
             <a className="
+            w-8
             lg:w-[3rem]
             2xl:w-[4rem]
             3xl:w-[5rem]"
              href={"https://tailwindcss.com/docs/installation"} target="_blank" rel="noreferrer"><SiTailwindcss className="
-            lg:w-auto lg:h-[3rem]
-            2xl:h-[4rem]
-            3xl:h-[5rem]"/>
+             w-auto h-8
+             lg:h-[3rem]
+             2xl:h-[4rem]
+             3xl:h-[5rem]"/>
               <p className="
               flex flex-wrap justify-center
               font-['Forum'] text-[#222222] font-medium
-              lg:mt-2 lg:text-base
+              text-base
+              lg:mt-2 
               2xl:text-lg
               3xl:text-xl">
               Tailwind
@@ -183,12 +225,13 @@ export default function Skill(){
       </div>
 
       <div className="
-      flex flex-wrap justify-center
-      bg-[#434242] border-b-8 border-[#00B9AE] 
-      lg:w-1/2">
+      flex flex-wrap justify-center bg-[#434242]
+      w-full
+      lg:w-1/2 lg:border-b-8 lg:border-[#00B9AE]">
         <div className="w-full flex flex-wrap justify-center">
           <h2 className="
           text-justify font-['Forum'] text-[#F3EFE0] font-medium tracking-widest
+          text-xl mt-4 mb-4
           lg:text-3xl  lg:mt-12 
           2xl:text-4xl
           3xl:text-5xl 3xl:mt-16">
@@ -199,6 +242,7 @@ export default function Skill(){
           <h4 className="
           w-full h-auto flex flex-wrap justify-start
           text-justify font-['Forum'] text-[#F3EFE0] font-medium tracking-widest leading-relaxed
+          text-base ml-[25px] mb-4
           lg:text-xl  lg:ml-[45px] lg:mb-8
           2xl:text-2xl
           3xl:text-3xl 3xl:mb-12">
@@ -213,6 +257,7 @@ export default function Skill(){
         </div>
         <div className="absolute">
           <img src={Henry} alt="henry" className="
+          h-12 mt-[200px] ml-[160px]
           lg:h-[90px] lg:mt-[250px] lg:ml-[200px]
           xl:h-[100px]
           2xl:h-[140px] 2xl:mt-[270px] 2xl:ml-[230px]
