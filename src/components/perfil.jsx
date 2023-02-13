@@ -18,7 +18,7 @@ export default function Perfil(){
         2xl:h-[9rem]
         3xl:mr-40 3xl:mt-52 3xl:h-[11rem]">
 
-          <a href={"https://www.linkedin.com/in/sixto-mendoza-orden/"} target="_blank" rel="noreferrer">
+          <a href={"https://drive.google.com/file/d/19vEQ2eAhs8MTdtAd_zjgQBOupxRwJPir/view?usp=sharing"} target="_blank" rel="noreferrer">
             <FaFileAlt className="
             w-auto h-12
             lg:w-auto lg:h-[5rem]
