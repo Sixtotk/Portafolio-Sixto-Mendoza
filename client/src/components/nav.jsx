@@ -21,7 +21,7 @@ export default function Nav(){
   
   return(
     <div className="
-    bg-[#F3EFE0] flex flex-wrap content-center
+    bg-[#F3EFE0] flex flex-wrap content-center 
     border-[#F3EFE0] w-screen h-17 border-b-4 
     md:h-20
     lg:h-20 lg:border-b-8

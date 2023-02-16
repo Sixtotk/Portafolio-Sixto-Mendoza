@@ -1,8 +1,38 @@
-import React from "react";
-
+import React, { useState }from "react";
+import axios from 'axios';
 import { FaGithubSquare, FaLinkedin, FaWhatsappSquare} from 'react-icons/fa'
 
+
 export default function Contacto(){
+
+  const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const handleSubmit = e => {
+        e.preventDefault();
+
+        const data = {
+            name: name,
+            email: email,
+            message: message
+        };
+
+        axios.post('http://localhost:3003/send-email', data)
+            .then(res => {
+                console.log(res.data);
+                alert('Correo electrónico enviado');
+            })
+            .catch(err => {
+                console.log(err);
+                alert('Error al enviar el correo electrónico');
+            });
+
+        setName('');
+        setEmail('');
+        setMessage('');
+    };
+
   return(
     <div className="w-screen h-auto flex flex-wrap content-center justify-center ">
       <div className="
@@ -28,7 +58,7 @@ export default function Contacto(){
             Ubicacion: Lima, Peru
             </h3>
                      
-            
+             
             
             <div className="
             flex flex-wrap content-center justify-center 
@@ -48,18 +78,21 @@ export default function Contacto(){
             </div>
           </div>
         </div>
+        
 
         <div className="lg:w-[50%] flex flex-wrap content-center justify-center">
-          <form className=" flex flex-wrap content-center justify-center
+          <form onSubmit={handleSubmit} 
+          className=" flex flex-wrap content-center justify-center
           w-[80%] mt-10
           lg:mt-20 lg:content-start lg:justify-start">
-            <input type="text" name="email" id="email" 
-            className="block w-full pl-7 pr-12 h-10 mb-4 border-[#222222] border-2 bg-[#F3EFE0] text-[#222222]" placeholder="Email"></input>
 
-            <input type="text" name="Nombre" id="Nombre" 
-            className="block w-full  pl-7 pr-12 h-10 mb-4 bg-[#F3EFE0] border-[#222222] border-2 text-[#222222]" placeholder="Nombre"></input>
+            <input type="text" name="email" id="name" value={name} onChange={e => setName(e.target.value)} required placeholder="Nombre"
+            className="block w-full pl-7 pr-12 h-10 mb-4 border-[#222222] border-2 bg-[#F3EFE0] text-[#222222]" ></input>
 
-            <textarea type="text" name="Mensaje" id="Mensaje" 
+            <input type="text" name="email" id="email" value={email} onChange={e => setEmail(e.target.value)} required placeholder="Email"
+            className="block w-full  pl-7 pr-12 h-10 mb-4 bg-[#F3EFE0] border-[#222222] border-2 text-[#222222]" ></input>
+
+            <textarea id="message" name="message" value={message} onChange={e => setMessage(e.target.value)} required
             className=" w-full pt-4 pl-7 pr-12 h-28 mb-4 bg-[#F3EFE0] border-[#222222] border-2 text-[#222222]" placeholder="Mensaje"></textarea>
             
             <button type="submit" className="flex w-20 justify-center bg-[#222222] mb-4 py-2 px-4 text-sm font-medium font-['Forum'] text-[#F3EFE0] hover:bg-[#00B9AE] focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
