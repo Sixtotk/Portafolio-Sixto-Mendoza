@@ -18,7 +18,7 @@ export default function Contacto(){
             message: message
         };
 
-        axios.post('http://localhost:3003/send-email', data)
+        axios.post('https://portafolio-sixto-mendoza-production.up.railway.app/send-email', data)
             .then(res => {
                 console.log(res.data);
                 alert('Correo electrónico enviado');

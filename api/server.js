@@ -36,7 +36,7 @@ app.post('/send-email', (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: 'sixtoorden@gmail.com',
+    to: emailUser,
     subject: `Mensaje de ${name}: ${email}`,
     text: message
   };
