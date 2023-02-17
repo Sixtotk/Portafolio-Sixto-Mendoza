@@ -18,7 +18,7 @@ export default function Slider(){
         2xl:text-3xl 2xl:mt-20 2xl:mb-20
         3xl:text-4xl ">
         Full Stack developer. Con más de 800 horas trabajando en JavaScript, Node, React, Next, Redux, PostgreSQL, Scrum entre otras tecnologías del sector en el bootcamp #SoyHenry.<br/><br/>
-        Tengo Experiencia en sectores laborales como logística, atención al cliente, capacitación laboral, entro otros. Lo que me da gran adaptabilidad, creatividad, resolución de problemas, trabajo en equipo, comunicación y autonomía
+        Tengo Experiencia en sectores laborales como logística, atención al cliente, capacitación laboral, entre otros. Lo que me da gran adaptabilidad, creatividad, resolución de problemas, trabajo en equipo, comunicación y autonomía
         </h4>
       </div>
       

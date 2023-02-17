@@ -1,0 +1,22 @@
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+span {
+  display: inline-block;
+  border-right: 0.1em solid #333;
+  margin: 0;
+  padding: 0 0.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 3s steps(21, end), blink 0.5s step-end infinite ;
+}
