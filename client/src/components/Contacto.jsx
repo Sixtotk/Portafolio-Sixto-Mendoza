@@ -23,7 +23,7 @@ export default function Contacto(){
           message: message
       };
   
-      axios.post('http://localhost:3001/send-email', data)
+      axios.post('https://portafolio-sixto-mendoza.vercel.app/send-email', data)
           .then(res => {
               alert('Correo electrónico enviado');
           })
