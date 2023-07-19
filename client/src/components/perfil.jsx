@@ -101,20 +101,20 @@ export default function Perfil(){
         xl:w-[70%]">
         
        
-        <a  className="border-4 border-[#CDA434] border-dashed" href={"https://api.whatsapp.com/send/?phone=%2B51902435668&text&type=phone_number&app_absent=0"} target="_blank" rel="noreferrer" >
+        <a  className="border-4 border-[#CDA434] border-dashed" href={"https://wa.me/51912348255"} target="_blank" rel="noreferrer" >
             <FaWhatsapp className={`${
           isAnimating ? 'animate-wiggle' : ''
-        } w-16 p-2 h-auto text-[#222222] 2xl:w-24`}/>
+        } w-16 p-2 h-auto 2xl:w-24 text-[#25D366]`}/>
           </a>
           <a className="border-4 border-[#CDA434] border-dashed" href={"https://www.linkedin.com/in/sixto-mendoza-orden/"} target="_blank" rel="noreferrer">
             <FaLinkedin className={`${
           isAnimating ? 'animate-wiggle' : ''
-        } w-16 p-2 h-auto text-[#222222] 2xl:w-24`} />
+        } w-16 p-2 h-auto 2xl:w-24 text-[#0A66C2]`} />
           </a>
           <a className="border-4 border-[#CDA434] border-dashed" href={"https://github.com/Sixtotk"} target="_blank" rel="noreferrer" >
             <FaGithub className={`${
           isAnimating ? 'animate-wiggle' : ''
-        } w-16 p-2 h-auto text-[#222222] 2xl:w-24`} />
+        } w-16 p-2 h-auto  2xl:w-24 text-[#181717]`} />
           </a>
         
         </div>

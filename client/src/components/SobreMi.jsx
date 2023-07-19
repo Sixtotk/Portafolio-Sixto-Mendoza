@@ -43,7 +43,7 @@ export default function SobreMi(){
       
       
         <a
-        href="https://drive.google.com/file/d/1r-rdCfHUavcNa3z1OdygmGDltF5TqHSi/view?usp=sharing" target="_blank" rel="noreferrer"
+        href="https://drive.google.com/file/d/1fI-tOQWekM7YqMBW9-hvWe62-DCo_BaW/view?usp=sharing" target="_blank" rel="noreferrer"
         className="h-10 w-56 lg:absolute lg:top-12 lg:right-20
         ">
           <button className="

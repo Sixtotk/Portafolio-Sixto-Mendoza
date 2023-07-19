@@ -50,7 +50,7 @@ export default function Contacto(){
     stopAnimation();
     
 
-    return () => clearTimeout( timeoutId);
+    return () => clearTimeout( timeoutId );
   }, []);
   
 
@@ -118,7 +118,7 @@ export default function Contacto(){
       w-full my-8 
       lg:w-[30%] lg:absolute lg:bottom-14 z-10">
 
-        <a  className="border-4 border-[#CDA434] border-dashed" href={"https://api.whatsapp.com/send/?phone=%2B51902435668&text&type=phone_number&app_absent=0"} target="_blank" rel="noreferrer" >
+        <a  className="border-4 border-[#CDA434] border-dashed" href={"https://wa.me/51912348255"} target="_blank" rel="noreferrer" >
             <FaWhatsapp className={`${
           isAnimating ? 'animate-wiggle' : ''
         } w-16 p-2 h-auto text-[#25D366] `}/>
@@ -131,7 +131,7 @@ export default function Contacto(){
         <a className="border-4 border-[#CDA434] border-dashed" href={"https://github.com/Sixtotk"} target="_blank" rel="noreferrer" >
           <FaGithub className={`${
           isAnimating ? 'animate-wiggle' : ''
-          } w-16 p-2 h-auto text-[#181717]] `} />
+          } w-16 p-2 h-auto text-[#181717] `} />
         </a>
       </div>
       <footer className="w-full font-serif text-[#F3EFE0] font-thin flex flex-wrap content-center justify-center
